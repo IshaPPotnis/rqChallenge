@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-08-30T13:49:15" hostname="MAC-C02GK3Q6MD6M" time="0.435">
+  <properties/>
+  <testcase name="getEmployeeDetails_ParseException()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.317"/>
+  <testcase name="getHighestSalary()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.087"/>
+  <testcase name="getEmployeeByEmployeeId_InternalServerError()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.007"/>
+  <testcase name="getEmployeeByEmployeeId_InvalidId_InvalidDataException()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.001"/>
+  <testcase name="getHighestEarningEmployeeList()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.005"/>
+  <testcase name="getEmployeeByEmployeeId_ParseException()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.003"/>
+  <testcase name="getEmployeeByEmployeeId()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.003"/>
+  <testcase name="getEmployeeByEmployeeId_GivenStringAsId_InvalidDataException()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.001"/>
+  <testcase name="getEmployeeDetails_InternalServerError()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.001"/>
+  <testcase name="getEmployeeDetails()" classname="com.example.rqchallenge.service.EmployeeDetailsReadServiceTest" time="0.003"/>
+  <system-out><![CDATA[2022-08-30 19:19:15.972 ERROR 14914 --- [    Test worker] c.e.r.s.EmployeeDetailsReadService       : Parse exception : null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
